@@ -1,6 +1,6 @@
 # Easy Settings
 
-> Vue module for using together with the Laravel 5 package - [alexusmai/easy-settings](https://github.com/alexusmai/easy-settings)
+> Vue application for using together with the Laravel 5 package - [alexusmai/easy-settings](https://github.com/alexusmai/easy-settings)
 
 ![Easy Settings Vue App](https://raw.github.com/alexusmai/laravel-vue-easy-settings/master/src/assets/esettings.gif?raw=true)
 
@@ -48,3 +48,6 @@ Don't forget add a csrf token to head block in your Laravel view
 ```
 
 Warning! Package use axios (Promise) - use babel-polyfill for ie11
+
+The application uses the bootstrap 4 styles - (/src/assets/styles.css)
+If your application already uses these styles, then you do not need to do anything extra.
