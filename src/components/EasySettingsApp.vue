@@ -52,21 +52,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss">
-    @import "node_modules/bootstrap/scss/functions";
-    @import "node_modules/bootstrap/scss/variables";
-    @import "node_modules/bootstrap/scss/mixins";
-
-    @import "node_modules/bootstrap/scss/reboot";
-    @import "node_modules/bootstrap/scss/type";
-    @import "node_modules/bootstrap/scss/grid";
-    @import "node_modules/bootstrap/scss/utilities";
-
-    @import "node_modules/bootstrap/scss/alert";
-    @import "node_modules/bootstrap/scss/buttons";
-    @import "node_modules/bootstrap/scss/tables";
-    @import "node_modules/bootstrap/scss/forms";
-    @import "node_modules/bootstrap/scss/jumbotron";
-    @import "node_modules/bootstrap/scss/card";
-</style>

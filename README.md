@@ -25,13 +25,16 @@ Vue.use(EasySettings, {store})
 **ELSE** you need create new vuex instance
 
 ```javascript
+import Vue from 'vue';
 import Vuex from 'vuex';
 import EasySettings from 'laravel-vue-easy-settings'
+
+Vue.use(Vuex);
 
 // create Vuex store, if you don't have it
 const store = new Vuex.Store();
 
-Vue.use(EasySettings, {store})
+Vue.use(EasySettings, {store});
 ```
 
 `The application store module will be registered under the name 'esettings'`
@@ -49,5 +52,10 @@ Don't forget add a csrf token to head block in your Laravel view
 
 Warning! Package use axios (Promise) - use babel-polyfill for ie11
 
-The application uses the bootstrap 4 styles - (/src/assets/styles.css)
+The application uses the bootstrap 4 styles - (/src/assets/styles.scss)
 If your application already uses these styles, then you do not need to do anything extra.
+
+Else - you can import styles
+```js
+import '~laravel-vue-easy-settings/assets/styles.scss';
+```
