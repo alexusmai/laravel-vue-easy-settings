@@ -102,7 +102,7 @@
         // form data
         const formData = new FormData(document.forms.estune);
         // add id
-        formData.append('id', this.selectedItem.id);
+        formData.append('easy-settings-id', this.selectedItem.id);
         // update - server side - refresh - go back
         this.$store.dispatch('esettings/setSettings', formData);
       },
